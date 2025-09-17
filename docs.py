@@ -79,3 +79,75 @@
 # slicing from start to end h1 = [1, 2, 3]
 # h2 = h1[:] h2 m h1 k copy aa gi h. to h2 m copy aai h to ab hm h1 m kuch b change krege to vo h1 m reflect nhi hoge vice versa.
 # 
+
+# loop behind the scene
+# python m kuch iteration tools hote h like for, comprehension, while etc
+# y tools only uni p use hote h jo chij iterable ho or iterable objects p like lists, file
+# iterable tools iter objects s query krte h and use iter() method bhejta h jise uspe loop lga ske and then y iter object __next__ or next() ko bhejte h as a response it means memory ka first element ka address ayega and sath m next aayega jo btayega k aage or bhi values h ya end ho gi list. Last value aane p ek exception aata h jo btata h k ab aage loop n chlana.
+
+# file.readline()
+# 'import time\n'
+# >>>
+# >>> file.readline()
+# 'print("abhishek")\n'
+# >>> file.readline()
+# '\n'
+# >>> file.readline()
+# 'username = "abhishek"\n'
+# >>> file.readline()
+# 'print(username)'
+# >>> file.readline()
+# ''
+# >>> file.readline()
+# ''
+# >>> file = open('script.py')
+# >>> file.__next__()
+# 'import time\n'
+# >>> file.__next__()
+# 'print("abhishek")\n'
+# >>> file.__next__()
+# '\n'
+# >>> file.__next__()
+# 'username = "abhishek"\n'
+# >>> file.__next__()
+# 'print(username)'
+# >>> file.__next__()
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+#     file.__next__()
+#     ~~~~~~~~~~~~~^^
+# StopIteration
+
+
+# for line in open('script.py'): 
+# ...     print(line)
+# ... 
+# import time
+
+# print("abhishek")
+
+# username = "abhishek"
+
+# print(username)
+
+# myList = [1, 2, 3, 4]
+# >>> ref = iter(myList)
+# >>> ref
+# <list_iterator object at 0x0000015014E71E70>
+# >>> ref.__next__()
+# 1
+# >>> ref.__next__()
+# 2
+# >>> ref.__next__()
+# 3
+# >>> ref.__next__()
+# 4
+# >>> ref.__next__()
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+#     ref.__next__()
+#     ~~~~~~~~~~~~^^
+# StopIteration
+
+# jitni b chijo m loop lg skta h vo sb iterable hoti h
+
