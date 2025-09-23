@@ -154,3 +154,11 @@
 ### OOPs ###
 # """classes and objects""" 
 
+# class Car:  # syntax to create a class
+#    def __init__(self, brand, model): # it is a constructor. self is like this keyword
+#         self.brand = brand
+#         self.model = model
+
+
+# my_car = Car("Toyota", "Corolla") # syntax to create an object
+
