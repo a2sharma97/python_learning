@@ -151,3 +151,6 @@
 
 # jitni b chijo m loop lg skta h vo sb iterable hoti h
 
+### OOPs ###
+# """classes and objects""" 
+
