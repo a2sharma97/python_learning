@@ -162,3 +162,13 @@
 
 # my_car = Car("Toyota", "Corolla") # syntax to create an object
 
+# **kwargs(keyword arguments) it use only in fns and accept key-value pair as values and return dict {}
+# eg:- def show_info(**kwargs):
+#     print("kwargs inside function:", kwargs)
+#     for key, value in kwargs.items():
+#         print(f"{key} = {value}")
+
+# show_info(name="Alice", age=30, city="Delhi")
+# Since show_info has a parameter **kwargs, all these keyword arguments are captured into a dict:
+# kwargs = {"name": "Alice", "age": 30, "city": "Delhi"}
+
