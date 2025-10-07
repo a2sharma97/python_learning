@@ -172,3 +172,18 @@
 # Since show_info has a parameter **kwargs, all these keyword arguments are captured into a dict:
 # kwargs = {"name": "Alice", "age": 30, "city": "Delhi"}
 
+# The enumerate() function in Python is a built-in function that adds a counter to an iterable object (like a list, tuple, or string) and returns an enumerate object. This object can then be iterated over, yielding pairs of (index, value) for each item in the original iterable. 
+# syntax enumerate(iterable, start=0) here iterable is any obj that supports iteration(list, tuple etc) and start is the index of starting value(it is optional)
+# eg:
+# my_list = ["apple", "banana", "cherry"]
+
+# Using enumerate to get both index and value
+# for index, fruit in enumerate(my_list):
+#     print(f"Index: {index}, Fruit: {fruit}")
+
+# Output:
+# Index: 0, Fruit: apple
+# Index: 1, Fruit: banana
+# Index: 2, Fruit: cherry
+
+
