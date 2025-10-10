@@ -186,4 +186,5 @@
 # Index: 1, Fruit: banana
 # Index: 2, Fruit: cherry
 
+# python m APIs ko handle krne k liye python libraries ka use kra jata h. "pip install requests" is a library.
 
