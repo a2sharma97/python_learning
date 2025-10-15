@@ -187,4 +187,4 @@
 # Index: 2, Fruit: cherry
 
 # python m APIs ko handle krne k liye python libraries ka use kra jata h. "pip install requests" is a library.
-
+# hm python m b mongodb database ka use kr skte h and iske liye b ek library aati h. "pip install pymongo"
