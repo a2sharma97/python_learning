@@ -10,7 +10,7 @@
 #  list- y ek data type h jo contiguous memory allocate krta h just like array []. it start with 0 idexing.
 #  Tuple- y bhi list jese hote h bs () s denote hote h.
 # Dict (dictionary)- isme values 0 s start nhi hoti h and denoted as {} and isme values key: value k pair m hoti h.
-# set- y unique values store krta h.
+# set- y unique values store krta h. only contain hashable (immutable) elements. A set is not hashable (because it is mutable), so you cannot add it to another set.
 # Boolean- y true/false m value rkhte h.
 # >>> mylist = [1, 3, 5]
 # >>> mylist
