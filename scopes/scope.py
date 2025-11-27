@@ -50,3 +50,16 @@ f = pythonCode(2)
 g = pythonCode(3)
 print(f(2))
 print(g(3))
+
+# nonlocal keyword
+
+def update_order():
+    my_order = "jeans"
+    def store():
+        nonlocal my_order # by using 'nonlocal' keyword we can make any variable non local i.e we can access it from outside the scope. 
+        my_order = "shirt"
+    store()
+    print(f"oredered value is : {my_order}")
+
+# print(nonlocal my_order) gives error becoz variable declare inside the fns and only child can access the parent variables
+update_order()

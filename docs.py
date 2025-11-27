@@ -198,3 +198,23 @@
 
 # python m APIs ko handle krne k liye python libraries ka use kra jata h. "pip install requests" is a library.
 # hm python m b mongodb database ka use kr skte h and iske liye b ek library aati h. "pip install pymongo"
+
+
+# type of functions
+    # pure vs impure fns
+    # pure fns simple fns hote h just like any other fns. But impure fns are those fns jo global variables ko change krte h and y recommended nhi hote h.
+        # global_var = 0
+        #     # eg: 
+        # def impure_fns():
+        #     global global_var
+        #     global_var = 5
+        #     print(global_var)
+
+        # impure_fns() impure fns
+    # lambda fns (anonymous fns)
+    # fns with no name is called anonymous fns
+    # eg: names = ["abhishek", "radhika", "chanchal", "abhishek"]
+
+    # common_name = list(filter(lambda chai: chai=="abhishek", names)) make a list of repeated name filter them from names list and then return them.
+    # print(common_name)
+    

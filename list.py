@@ -69,3 +69,16 @@ print(squared_nums) #[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 
 cube_nums = [cube ** 3 for cube in range(5)]
 print(cube_nums)
+
+print("list items ")
+names = ["abhishek", 'chanchal', 'radhika', 'raju', 'babubhiya']
+
+for item in zip(range(1, len(names) + 1), names):
+    print(item)
+
+
+names = ["abhishek", 'chanchal', 'radhika', 'raju', 'babubhiya']
+pay = [5000, 50000, 5000000, 50, 5]
+
+for item in zip(pay, names):
+    print(item)

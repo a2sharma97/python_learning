@@ -67,3 +67,9 @@ print(new_Dict) # {'firstName': 'user Details', 'lastName': 'user Details', 'age
 
 new_Dict = dict.fromkeys(keys, keys)
 print(new_Dict) #{'firstName': ['firstName', 'lastName', 'age'], 'lastName': ['firstName', 'lastName', 'age'], 'age': ['firstName', 'lastName', 'age']}
+
+# dict keyword
+user = dict(username= "abhishek42", gender= "male")
+print(f'user info: {user}')
+del user["gender"]
+print(f'after deleting {user}')
